@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static com.reactlibrary.HoneywellScannerPackage.HoneyWellTAG;
 
-public class HoneywellScannerModule extends ReactContextBaseJavaModule implements BarcodeReader.BarcodeListener {
+public class HoneywellScannerModule extends ReactContextBaseJavaModule implements BarcodeReader.BarcodeListener, BarcodeReader.TriggerListener {
 
     // Debugging
     private static final boolean D = true;
@@ -75,6 +75,7 @@ public class HoneywellScannerModule extends ReactContextBaseJavaModule implement
         AidcManager.create(reactContext, new CreatedCallback() {
             @Override
             public void onCreated(AidcManager aidcManager) {
+                Log.d("BarcodeDevices: ", manager.listConnectedBarcodeDevices());
                 manager = aidcManager;
                 reader = manager.createBarcodeReader();
                 if (reader != null) {

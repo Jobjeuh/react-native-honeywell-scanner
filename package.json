@@ -1,46 +1,35 @@
 {
-	"name": "react-native-honeywell-scanner-v2",
+	"name": "@scrumble-nl/react-native-honeywell-scanner",
 	"title": "React Native Honeywell Scanner-v2",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Bridge to use the Honeywell scanner",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"scripts":
-	{
+	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "tsc"
 	},
-	"repository":
-	{
-		"type": "git",
-		"url": "git+https://github.com/AMI3GOLtd/react-native-honeywell-scanner.git",
-		"baseUrl": "https://github.com/AMI3GOLtd/react-native-honeywell-scanner.git"
-	},
-	"keywords":
-	[
+	"repository": "https://gitlab.com/Scrumble/lekkerland/react-native-honeywell-scanner",
+	"keywords": [
 		"react-native",
 		"honeywell"
 	],
-	"author": "AMI3GO Ltd <enquiry@ami3go.com>",
-	"contributors":
-	[
+	"author": "Scrumble <admin@scrumble.nl> (https://www.scrumble.nl)",
+	"contributors": [
 		"AMI3GO Ltd <enquiry@ami3go.com> (https://ami3go.com)"
 	],
-	"bugs":
-	{
-		"url": "https://github.com/AMI3GOLtd/react-native-honeywell-scanner/issues"
+	"bugs": {
+		"url": "https://gitlab.com/Scrumble/lekkerland/react-native-honeywell-scanner/issues"
 	},
-	"homepage": "https://github.com/AMI3GOLtd/react-native-honeywell-scanner#readme",
+	"homepage": "https://gitlab.com/Scrumble/lekkerland/react-native-honeywell-scanner#readme",
 	"license": "MIT",
 	"licenseFilename": "LICENSE",
 	"readmeFilename": "README.md",
-	"peerDependencies":
-	{
+	"peerDependencies": {
 		"react": "16.*",
 		"react-native": "0.*"
 	},
-	"devDependencies":
-	{
+	"devDependencies": {
 		"react": "16.*",
 		"react-native": "0.*"
 	}
